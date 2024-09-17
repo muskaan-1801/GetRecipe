@@ -25,7 +25,7 @@ const App = () =>{
   return (
     <div className="App">
       <div className="search-form">
-        <input type="text" placeholder="Enter Your Name"
+        <input type="text" placeholder="Search Recipe"
         className="search-bar" 
         value={search}
         onChange={(e)=> setSearch(e.target.value)}/>
